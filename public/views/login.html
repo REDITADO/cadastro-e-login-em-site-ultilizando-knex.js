@@ -1,0 +1,34 @@
+<header>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</header>
+
+<div class="content">      
+    <!--FORMULÁRIO DE LOGIN-->
+    <div id="login">
+      <form method="post" action="/login"> 
+        <h1>Login</h1> 
+        <p> 
+          <label for="UserName">Seu e-mail</label>
+          <input id="email_login" name="eMail" required="required" type="text" placeholder="luis"/>
+        </p>
+        
+        <p> 
+          <label for="senha_login">Sua senha</label>
+          <input id="senha_login" name="senha" required="required" type="password" placeholder="1234" /> 
+        </p>
+        
+        <p> 
+          <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+          <label for="manterlogado">Manter-me logado</label>
+        </p>
+        
+        <p> 
+          <input type="submit" value="Logar" /> 
+        </p>
+        
+        <p class="link">
+          Ainda não tem conta?
+          <a href="/cadastro">Cadastre-se</a>
+        </p>
+      </form>
+    </div>

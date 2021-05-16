@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    box-sizing:border-box;
+    margin: 0;
+}
+html,body{
+    height:100vh;
+}
+#back{
+    position: relative;
+    padding: 0.8rem;
+    font-size: large;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back img{
+    height: 20px;
+    width: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 8rem;
+    background-color: cyan;
+    font-size: 50px;
+}
+
+#options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18rem;
+}
+#options input{
+    padding: 0.5rem;
+    border-radius: 25rem;
+}
+#options button{
+   
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+}
+button img{
+    position: relative;
+    height: 71px;
+    width: 100px;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300vh;
+    margin-top: 5rem;
+}
+.noticia{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 30%;
+    height: 45%;
+   
+    margin-top: 1.5rem;
+    border:solid black 2px ;
+}
+.noticia p{
+    padding: 3rem;
+    font-size: 20px;
+}
